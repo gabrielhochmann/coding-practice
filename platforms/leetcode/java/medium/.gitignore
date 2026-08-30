@@ -1,0 +1,16 @@
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Compiled class file
+*.class
+
+# OS
+Thumbs.db
+.DS_Store
