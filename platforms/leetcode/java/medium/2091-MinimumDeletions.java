@@ -11,7 +11,7 @@ package dificuldade.Medium;
  * Time complexity: O(n)
  * Space complexity: O(1)
  */
-public class MinimumDeletions2091 {
+public class MinimumDeletions {
 
 	public int minimumDeletions(int[] nums) {
 
