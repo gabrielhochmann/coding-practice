@@ -9,7 +9,7 @@
  * Time complexity: O(n)
  * Space complexity: O(1)
  */
-public class MinimumDeletions {
+class MinimumDeletions {
 
 	public int minimumDeletions(int[] nums) {
 
