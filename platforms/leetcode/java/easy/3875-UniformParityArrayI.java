@@ -1,10 +1,10 @@
 /**
  * 3875. Construct Uniform Parity Array I
- * https://leetcode.com/problems/construct-uniform-parity-array-i/description/
+ * https://leetcode.com/problems/construct-uniform-parity-array-i/
  * 
- * Insight: the answer is always true. If the array is already uniform , use
+ * Insight: the answer is always true. If the array is already uniform, use
  * nums2[i] = nums1[i] for every index. If it's mixed, build nums2 as all-odd:
- * keep the odd valuas as-is, and for each value, subtract any odd value that
+ * keep the odd values as-is, and for each value, subtract any odd value that
  * exists in the array (even - odd = odd). Since the array is mixed, there's
  * always at least one odd value available.
  * 
@@ -18,7 +18,7 @@ class Solution {
 }
 
 /**
- * First approach (brute-force): for each index, simulates wheter it's
+ * First approach (brute-force): for each index, simulates whether it's
  * possible to make it even/odd by searching for a partner elsewhere in the
  * array. Works, but redundant... only after implementing this did I realize
  * the answer is always true (see Solution above).
